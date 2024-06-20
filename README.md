@@ -19,8 +19,8 @@ Bagaimana caranya? berikut cara untuk menambahkan SSL/TLS di Website Publik mela
 5. Kemudian akan diberi Origin Certificate dan Private Key. Pada debian, buat file `[nama].pem` untuk origin certificate dan `[nama].key` untuk private key. Copy masing-masing ke dalam file yang sudah dibuat
    ![Screen Menu copy](images/ssl5.jpg) ![Screen Menu Utama](images/ssl6.jpg)
    
-7. Kemudian buka `nano /etc/nginx/conf.d/wordpress.conf`. Ganti bagian ssl_certificate dengan file yang sudah dibuat tadi
-   ![Screen Menu wp.conf](images/ssl7.jpg)
+7. Kemudian buka `nano /etc/nginx/conf.d/wordpress.conf`. Ganti bagian ssl_certificate dengan file yang sudah dibuat tadi (stabilo kuning). Dan tambahkan path folder codingan (stabilo merah).
+   ![Screen Menu wp.conf](images/ssl7(1).jpg)
     
 8. Jangan lupa bagian ini dibuat <b>Full</b>
    ![Screen Menu akhir](images/ssl8.jpg)
